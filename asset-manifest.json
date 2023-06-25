@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.10f6f1e1.css",
+    "main.js": "./static/js/main.3eddb38f.js",
+    "static/media/recipes-app.png": "./static/media/recipes-app.f0c178fc18e728259e32.png",
+    "static/media/react-logo.png": "./static/media/react-logo.5e8bd3b2ef63d8b4b6f0.png",
+    "static/media/weather-app.png": "./static/media/weather-app.3f77c477eb4ff3eb6935.png",
+    "static/media/password reliability check.png": "./static/media/password reliability check.28a7798ca5863cfa0f18.png",
+    "static/media/todo-app.png": "./static/media/todo-app.cfaaa1db783067fff35e.png",
+    "static/media/wordPress-logo.png": "./static/media/wordPress-logo.f415956dc7a056087e39.png",
+    "static/media/css-logo.png": "./static/media/css-logo.8aaf7833370a6845139c.png",
+    "static/media/html-logo.png": "./static/media/html-logo.be50d4568ab0cb01edb8.png",
+    "static/media/gitHub-logo.png": "./static/media/gitHub-logo.c61d4b348b68f0a7b730.png",
+    "index.html": "./index.html",
+    "main.10f6f1e1.css.map": "./static/css/main.10f6f1e1.css.map",
+    "main.3eddb38f.js.map": "./static/js/main.3eddb38f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10f6f1e1.css",
+    "static/js/main.3eddb38f.js"
+  ]
+}
