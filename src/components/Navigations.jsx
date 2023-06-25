@@ -21,7 +21,7 @@ function Navigation() {
                                 <NavLink exact to="/" className="nav-link text-light">
                                     About
                                 </NavLink>
-                                <NavLink to="/projects" className="nav-link text-light">
+                                <NavLink to="/projects" className="nav-link text-light test">
                                     My Projects
                                 </NavLink>
                                 <NavLink to="/contact" className="nav-link text-light">
