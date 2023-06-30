@@ -54,17 +54,6 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 mb-4">
-                    <div className="card">
-                        <a href="https://user-oleksandr.github.io/test-2_checkPassword/">
-                            <img className="card-img-top" src={PasswordCheck} alt="Project 5"/>
-                        </a>
-                        <div className="card-body">
-                            <h5 className="card-title">password reliability check</h5>
-                            <p className="card-text">Html Css</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     );
