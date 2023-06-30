@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from 'react-router-dom';
-import About from './pages/About';
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contacts";
+import About from '../pages/About';
+import Projects from "../pages/Projects";
+
 
 const RoutesComponent = () => {
     const routes = [
@@ -13,10 +13,6 @@ const RoutesComponent = () => {
         {
             path: "/projects",
             element: <Projects />,
-        },
-        {
-            path: "/contact",
-            element: <Contact />,
         },
     ];
 

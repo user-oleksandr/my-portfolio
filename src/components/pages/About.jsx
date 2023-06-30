@@ -12,7 +12,7 @@ function About() {
         <div className="container mt-5">
             <div className="row pt-5">
                 <div className="col-lg-6 offset-lg-6 col-md-12">
-                    <h2 className='text-end'>About Me</h2>
+                    <h3 className='text-end'>About Me</h3>
                     <p className='mt-3'>
                         Hello. My name is Oleksandr.
                         I am a beginner front-end developer.
@@ -27,7 +27,7 @@ function About() {
                 </div>
             </div>
             <div className="row mt-5 text-center">
-                <h2>Skills:</h2>
+                <h3>Skills:</h3>
             </div>
             <div className="row justify-content-center mt-5 mb-5">
                 <div className="col">

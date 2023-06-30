@@ -2,14 +2,25 @@ import React from 'react';
 import Weather from '../images/projects/weather-app.png';
 import Recipes from '../images/projects/recipes-app.png';
 import Todo from '../images/projects/todo-app.png';
-import OnlineShop from '../images/projects/online shop.png';
-import PasswordCheck from '../images/projects/password reliability check.png';
+import OnlineShop from '../images/projects/online-shop.png';
+
 
 function Projects() {
     return (
         <div className="container mt-5 pt-5">
             <h2>Projects</h2>
             <div className="row mt-5">
+                <div className="col-md-4 mb-4">
+                    <div className="card">
+                        <a href="https://user-oleksandr.github.io/online-shop-app/">
+                            <img className="card-img-top" src={OnlineShop} alt="Project 3"/>
+                        </a>
+                        <div className="card-body">
+                            <h5 className="card-title">Online Shop</h5>
+                            <p className="card-text">React-app Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-md-4 mb-4">
                     <div className="card">
                         <a href="https://user-oleksandr.github.io/weather-app/">
@@ -29,17 +40,6 @@ function Projects() {
                         <div className="card-body">
                             <h5 className="card-title">Recipes-app</h5>
                             <p className="card-text">React</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-4 mb-4">
-                    <div className="card">
-                        <a href="https://user-oleksandr.github.io/online-shop-app/">
-                            <img className="card-img-top" src={OnlineShop} alt="Project 3"/>
-                        </a>
-                        <div className="card-body">
-                            <h5 className="card-title">Online Shop</h5>
-                            <p className="card-text">React-app Bootstrap</p>
                         </div>
                     </div>
                 </div>

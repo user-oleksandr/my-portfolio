@@ -3,8 +3,9 @@ import { HashRouter as Router } from 'react-router-dom';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Navigation from './components/Navigations';
-import RoutesComponent from "./components/RoutesComponent";
+import Navigation from './components/navigations/Navigations';
+import RoutesComponent from "./components/routes/RoutesComponent";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Router>
                 <Navigation />
                 <RoutesComponent />
+                <Footer />
             </Router>
         </div>
     );
