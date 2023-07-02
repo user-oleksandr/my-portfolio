@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.eb1cf879.css",
-    "main.js": "./static/js/main.85874e4b.js",
+    "main.css": "./static/css/main.1cd6fbaa.css",
+    "main.js": "./static/js/main.cc10d556.js",
     "static/media/recipes-app.png": "./static/media/recipes-app.f0c178fc18e728259e32.png",
     "static/media/online-shop.png": "./static/media/online-shop.7589f4a620742c932193.png",
     "static/media/react-logo.png": "./static/media/react-logo.5e8bd3b2ef63d8b4b6f0.png",
     "static/media/weather-app.png": "./static/media/weather-app.3f77c477eb4ff3eb6935.png",
-    "static/media/todo-app.png": "./static/media/todo-app.cfaaa1db783067fff35e.png",
+    "static/media/todo-app.png": "./static/media/todo-app.5710bd4ae95a8a687927.png",
     "static/media/wordPress-logo.png": "./static/media/wordPress-logo.f415956dc7a056087e39.png",
     "static/media/css-logo.png": "./static/media/css-logo.8aaf7833370a6845139c.png",
     "static/media/html-logo.png": "./static/media/html-logo.be50d4568ab0cb01edb8.png",
     "static/media/gitHub-logo.png": "./static/media/gitHub-logo.c61d4b348b68f0a7b730.png",
     "index.html": "./index.html",
-    "main.eb1cf879.css.map": "./static/css/main.eb1cf879.css.map",
-    "main.85874e4b.js.map": "./static/js/main.85874e4b.js.map"
+    "main.1cd6fbaa.css.map": "./static/css/main.1cd6fbaa.css.map",
+    "main.cc10d556.js.map": "./static/js/main.cc10d556.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb1cf879.css",
-    "static/js/main.85874e4b.js"
+    "static/css/main.1cd6fbaa.css",
+    "static/js/main.cc10d556.js"
   ]
 }
