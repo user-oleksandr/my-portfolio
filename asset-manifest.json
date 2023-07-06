@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "./static/css/main.36c5cc86.css",
-    "main.js": "./static/js/main.024224a0.js",
+    "main.js": "./static/js/main.36dad9c9.js",
     "static/media/recipes-app.png": "./static/media/recipes-app.f0c178fc18e728259e32.png",
     "static/media/online-shop.png": "./static/media/online-shop.7589f4a620742c932193.png",
+    "static/media/bot-assistant.png": "./static/media/bot-assistant.ad0532edfbb5d53a3f46.png",
     "static/media/react-logo.png": "./static/media/react-logo.5e8bd3b2ef63d8b4b6f0.png",
     "static/media/weather-app.png": "./static/media/weather-app.3f77c477eb4ff3eb6935.png",
     "static/media/todo-app.png": "./static/media/todo-app.5710bd4ae95a8a687927.png",
@@ -13,10 +14,10 @@
     "static/media/gitHub-logo.png": "./static/media/gitHub-logo.c61d4b348b68f0a7b730.png",
     "index.html": "./index.html",
     "main.36c5cc86.css.map": "./static/css/main.36c5cc86.css.map",
-    "main.024224a0.js.map": "./static/js/main.024224a0.js.map"
+    "main.36dad9c9.js.map": "./static/js/main.36dad9c9.js.map"
   },
   "entrypoints": [
     "static/css/main.36c5cc86.css",
-    "static/js/main.024224a0.js"
+    "static/js/main.36dad9c9.js"
   ]
 }
