@@ -3,7 +3,7 @@ import Weather from '../images/projects/weather-app.png';
 import Recipes from '../images/projects/recipes-app.png';
 import Todo from '../images/projects/todo-app.png';
 import OnlineShop from '../images/projects/online-shop.png';
-
+import BotAssistant from '../images/projects/bot-assistant.png';
 
 function Projects() {
     return (
@@ -13,7 +13,7 @@ function Projects() {
                 <div className="col-md-4 mb-4">
                     <div className="card">
                         <a href="https://user-oleksandr.github.io/online-shop-app/">
-                            <img className="card-img-top" src={OnlineShop} alt="Project 3"/>
+                            <img className="card-img-top" src={OnlineShop} alt="Project 1"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">Online Shop</h5>
@@ -24,7 +24,7 @@ function Projects() {
                 <div className="col-md-4 mb-4">
                     <div className="card">
                         <a href="https://user-oleksandr.github.io/weather-app/">
-                            <img className="card-img-top" src={Weather} alt="Project 1"/>
+                            <img className="card-img-top" src={Weather} alt="Project 2"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">Weather-app</h5>
@@ -35,7 +35,7 @@ function Projects() {
                 <div className="col-md-4 mb-4">
                     <div className="card">
                         <a href="https://user-oleksandr.github.io/recipes-app/">
-                            <img className="card-img-top" src={Recipes} alt="Project 2"/>
+                            <img className="card-img-top" src={Recipes} alt="Project 3"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">Recipes-app</h5>
@@ -51,6 +51,17 @@ function Projects() {
                         <div className="card-body">
                             <h5 className="card-title">Todo-app</h5>
                             <p className="card-text">React</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4 mb-4">
+                    <div className="card">
+                        <a href="https://user-oleksandr.github.io/bot_assistant_app/">
+                            <img className="card-img-top" src={BotAssistant} alt="Project 5"/>
+                        </a>
+                        <div className="card-body">
+                            <h5 className="card-title">Bot-assistant</h5>
+                            <p className="card-text">React, Bootstrap, Css</p>
                         </div>
                     </div>
                 </div>
