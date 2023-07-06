@@ -1,6 +1,6 @@
 body {
-    background-color: #22272E;
-    color: whitesmoke;
+    background-color: #eaeaea;
+    color: #3f3f3f;
 }
 
 #offcanvasNavbar {
@@ -10,24 +10,18 @@ body {
 }
 
 .card {
-    color: white;
-    background-color: #0D1117;
+    color: #ffffff;
+    background-color: #6C757D;
 }
 
 .card img {
     height: 10em;
 }
 
-.navigations {
-    background-color: #0D1117;
-    height: 5em;
-}
-
 .navigations-menu {
-    background-color: #0D1117;
     border-radius: 10px 0 0 10px;
 }
 
 footer {
-    background-color: #0D1117;
+    background-color: #6C757D;
 }

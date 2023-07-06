@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 function Navigation() {
     return (
-        <nav className="navbar navbar-dark navigations fixed-top navbar-expand-lg">
+        <nav className="navbar navbar-dark navigations bg-secondary fixed-top navbar-expand-lg">
             <div className="container-fluid">
                 <button
                     className="navbar-toggler text-light"
@@ -18,7 +18,7 @@ function Navigation() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
-                    className="offcanvas offcanvas-end navigations-menu"
+                    className="offcanvas offcanvas-end bg-secondary navigations-menu"
                     tabIndex="-1"
                     id="navbarNav"
                     aria-labelledby="navbarNavLabel"
