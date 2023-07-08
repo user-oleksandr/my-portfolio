@@ -4,46 +4,31 @@ import {NavLink} from 'react-router-dom';
 
 function Navigation() {
     return (
-        <nav className="navbar navbar-dark navigations bg-secondary fixed-top navbar-expand-lg">
+        <nav className="navbar bg-secondary fixed-top navbar-dark">
             <div className="container-fluid">
-                <button
-                    className="navbar-toggler text-light"
-                    type="button"
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
+                <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div
-                    className="offcanvas offcanvas-end bg-secondary navigations-menu"
-                    tabIndex="-1"
-                    id="navbarNav"
-                    aria-labelledby="navbarNavLabel"
-                    style={{width: '20em'}}
-                >
-                    <div className="offcanvas-header ">
-                        <h5 className="offcanvas-title text-light" id="navbarNavLabel">
-                            My Portfolio
-                        </h5>
-                        <button
-                            type="button"
-                            className="btn-close btn-close-white"
-                            data-bs-dismiss="offcanvas"
-                            aria-label="Close"
-                        ></button>
+                <a className="navbar-brand">My portfolio</a>
+                <div className="offcanvas offcanvas-start bg-secondary rounded shadow" tabIndex="-1"
+                     id="offcanvasNavbar"
+                     aria-labelledby="offcanvasNavbarLabel" style={{width: '275px'}}>
+                    <div className="offcanvas-header">
+                        <h5 className="offcanvas-title text-light" id="offcanvasNavbarLabel">My portfolio</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
                     </div>
-                    <div className="offcanvas-body justify-content-center">
-                        <ul className="navbar-nav">
+                    <div className="offcanvas-body">
+                        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item">
-                                <NavLink exact to="/" className="nav-link text-light">
+                                <NavLink exact to="/" className="nav-link">
                                     About
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/projects" className="nav-link text-light test">
+                                <NavLink to="/projects" className="nav-link">
                                     My Projects
                                 </NavLink>
                             </li>

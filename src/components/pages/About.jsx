@@ -31,22 +31,22 @@ function About() {
             </div>
             <div className="row justify-content-center mt-5 mb-5">
                 <div className="col">
-                    <img src={Html} className="img-thumbnail"/>
+                    <img src={Html} className="img-thumbnail" style={{WebkitBorderRadius:'50%'}}/>
                 </div>
                 <div className="col">
-                    <img src={Css} className="img-thumbnail"/>
+                    <img src={Css} className="img-thumbnail" style={{WebkitBorderRadius:'50%'}}/>
                 </div>
                 <div className="col">
-                    <img src={JS} className="img-thumbnail"/>
+                    <img src={JS} className="img-thumbnail" style={{WebkitBorderRadius:'50%'}}/>
                 </div>
                 <div className="col">
-                    <img src={ReactJS} className="img-thumbnail"/>
+                    <img src={ReactJS} className="img-thumbnail" style={{WebkitBorderRadius:'50%'}}/>
                 </div>
                 <div className="col">
-                    <img src={GitHub} className="img-thumbnail"/>
+                    <img src={GitHub} className="img-thumbnail" style={{WebkitBorderRadius:'50%'}}/>
                 </div>
                 <div className="col">
-                    <img src={WordPress} className="img-thumbnail"/>
+                    <img src={WordPress} className="img-thumbnail" style={{WebkitBorderRadius:'50%'}}/>
                 </div>
             </div>
         </div>
